@@ -1,26 +1,25 @@
-# 🐍 Python Stress Tester
+# 🧪 Teste de Stress - Sistema de Atendimento
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Descrição
+Teste de stress automatizado para sistema web de atendimento ao cliente, incluindo fluxos de relatórios e atendimento.
 
-Uma ferramenta profissional para testes de stress, carga e performance de APIs e sistemas.
+## 🚀 Como Executar
 
-## 🚀 Características
+### Pré-requisitos
+- Python 3.8+
+- Git
+- Chrome Browser
 
-- ✅ **Testes de carga progressiva**
-- ⚡ **Requisições concorrentes**
-- 📊 **Relatórios detalhados**
-- 🎯 **Configuração flexível**
-- 🔍 **Monitoramento em tempo real**
-- 📈 **Métricas de performance**
-
-## 📦 Instalação Rápida
-
+### Instalação
 ```bash
-# Clone o repositório
+# Clonar repositório
 git clone https://github.com/igorgarces/stress-tests.git
 cd stress-tests
 
-# Execute o script de instalação
-chmod +x scripts/install.sh
-./scripts/install.sh
+# Criar ambiente virtual (opcional mas recomendado)
+python -m venv venv
+# Windows: venv\Scripts\activate
+# Mac/Linux: source venv/bin/activate
+
+# Instalar dependências
+pip install selenium webdriver-manager
